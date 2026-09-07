@@ -192,6 +192,8 @@ Edit these values near the top of the script to experiment with other MDPs:
 - `get_action_distribution()` / `expected_utility()` — transition dynamics
 
 ## Program:
+```
+
 # exp 6
 import numpy as np
 
@@ -301,7 +303,7 @@ for r in range(rows):
     for c in range(cols):
         p_grid[r, c] = policy[(r, c)]
 print(np.flipud(p_grid))
-
+```
 ## Output
 <img width="587" height="340" alt="image" src="https://github.com/user-attachments/assets/86063d4e-9f35-4eb9-9fc8-61745b42633b" />
 
